@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: >-
+  Cite the exact Zenodo numerical reproducibility archive and identify the
+  particular model checkpoint revision when relevant.
+type: software
+title: "DeiT and Swin RoPE Reproducibility — Source Companion"
+version: "1.0.3"
+authors:
+  - family-names: "Banđur"
+    given-names: "Đoko"
+  - family-names: "Banđur"
+    given-names: "Miloš"
+keywords:
+  - vision transformer
+  - DeiT
+  - Swin
+  - rotary position embedding
+  - reproducibility
+preferred-citation:
+  type: dataset
+  title: "DeiT and Swin RoPE Research Resources: Reproducibility Archive"
+  authors:
+    - family-names: "Banđur"
+      given-names: "Đoko"
+    - family-names: "Banđur"
+      given-names: "Miloš"
+  year: 2026
+  version: "1.0.3"
+  publisher: "Zenodo"
+  doi: "10.5281/zenodo.24055154"
+  url: "https://doi.org/10.5281/zenodo.24055154"

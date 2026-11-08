@@ -1,0 +1,4 @@
+Independent sanitized-package CPU check: Python 3.13.5, NumPy 2.3.5, torch 2.10.0+cpu.
+Historical author reproduction used a Python 3.11-based environment.
+Command: python3 scripts/run_all_cpu.py
+Expected success marker: ADSV3_V33_FINAL_ARCHIVED_CPU_REPRODUCTION_PASS

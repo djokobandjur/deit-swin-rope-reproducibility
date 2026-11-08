@@ -1,0 +1,93 @@
+{
+  "status": "COMPUTED_FROM_HASH_VERIFIED_PREDICTIONS",
+  "method": "Clean ImageNet-1k Top-1; same 50k cached images/labels",
+  "interpretation": "Descriptive same-cache comparison, not causal architecture/PE effect",
+  "cache_authority": {
+    "cache_id": "P2_C_PUBLIC_FULLVAL_SOURCE_NATIVE_CACHE_v1_0",
+    "cache_semantic_stream_sha256": "6035a7e4acb49b9752c3668c64eb6dc9850c338ed406a825bbba7d77e81f5102",
+    "cache_class_order_sha256": "5e738e464c43c92037bbb4252eeb6ba2c306091861443ae7e182e28c9662324e",
+    "cache_path_manifest_sha256": "b942a166cdf25448a2defb0a139dd81de502da9ca41b799412bc5b3a80efdc61",
+    "preprocess": "pinned deit/datasets.py::build_dataset(False,args), input_size=224, eval_crop_ratio=1.0"
+  },
+  "family_summaries": [
+    {
+      "architecture": "DeiT",
+      "trained_n_checkpoints": 6,
+      "public_reference_n_checkpoints": 1,
+      "n_images_per_model": 50000,
+      "trained_mean_top1_pct": 83.7366666667,
+      "trained_sample_sd_top1_pp": 0.0746690476,
+      "public_top1_pct": 83.774,
+      "trained_mean_minus_public_pp": -0.0373333333
+    },
+    {
+      "architecture": "Swin",
+      "trained_n_checkpoints": 6,
+      "public_reference_n_checkpoints": 1,
+      "n_images_per_model": 50000,
+      "trained_mean_top1_pct": 83.833,
+      "trained_sample_sd_top1_pp": 0.0974782027,
+      "public_top1_pct": 83.754,
+      "trained_mean_minus_public_pp": 0.079
+    }
+  ],
+  "input_source_hashes": {
+    "PUBLIC_DeiT_Base": {
+      "metadata_sha256": "6de5a77444d30118da01630d51dfe75acb97c151d38044c5597e0f49fee658da",
+      "predictions_sha256": "903e95b1561601f100085bd870a46dfe43b1281d07a373f646bbb860fcc1aca5"
+    },
+    "DeiT_P1": {
+      "metadata_sha256": "c0ce45bc57168c979ccab95d83e5361e501bde79e56700d6598b6239fbf58341",
+      "predictions_sha256": "762d88d16d64e4e280c556a4e5528757a6b3ff7c1fcfa0fc3aa5d3aead067789"
+    },
+    "DeiT_P2": {
+      "metadata_sha256": "0ca29fdfa60dc24d3f32399ffd44e3095b216cd64a425b8959d9c4138371738b",
+      "predictions_sha256": "ee4698fb1781dba23c9e0b09e386f3fa96a2b99c82eda54121b0bdf406fc4256"
+    },
+    "DeiT_P3": {
+      "metadata_sha256": "f4469be200f5e15139e7aba09892f39bb06197f422cc10a3f0808cec9574bf2c",
+      "predictions_sha256": "06fdef15d2bb985e5aa9c305500dc6150ceeb67baa84c8a7060e436412fec9ae"
+    },
+    "DeiT_P4": {
+      "metadata_sha256": "0c5393b563adc0d7fcc19999514c3bfca5dc967afe119597de3194d69ee338e7",
+      "predictions_sha256": "7152fc73debf52b86dab539a3fe404c21572adbde7100059c70753113138966e"
+    },
+    "DeiT_P5": {
+      "metadata_sha256": "d2a018dee43b1346d517c8ff7185e8f10e8654e2c907e7350c654b6cfbf9a709",
+      "predictions_sha256": "775df4d0bbb509896cc4bf3cd44a09801daa29488dc2649c18a408c8166aaaee"
+    },
+    "DeiT_P6": {
+      "metadata_sha256": "67a1c3574d36558bd50803059e214cc96f9aa9712fdadb1ae28a425d08fce52e",
+      "predictions_sha256": "b2c2d3086379a452550cf2620491082e31a5016143a4ce4e298de2bf73da5056"
+    },
+    "PUBLIC_Swin_Base": {
+      "metadata_sha256": "c371bdd9a11330b0b963455e8a0b79a11248bdc18afee1c5690432f87a924a07",
+      "predictions_sha256": "d81ea6b1623f56fd706824af395be9b8dccc385c0054f6772699ec467ef8bdbb"
+    },
+    "Swin_P1": {
+      "metadata_sha256": "5ff348041f00407cb6ee15f1374aba7de3b0061ebbd9ea60f4afdf385e3287df",
+      "predictions_sha256": "90e93c26e8e73e5139c4882aa6ae53ea9c558c943dce5f06dd0a7bddb48c0481"
+    },
+    "Swin_P2": {
+      "metadata_sha256": "220dcfd4e2ab4c32cec78293986971aa3347d90465ba33e9b65ca6d376311fef",
+      "predictions_sha256": "38cda19a635d6cd39f59e406ca9b79518bb8b21ca43a2297a7c0c253f2d97160"
+    },
+    "Swin_P3": {
+      "metadata_sha256": "0aac7f4e61bceff444b8662a370a380d3b1a19fb13f31ca77b6d0c40da94beb8",
+      "predictions_sha256": "a15d598b411355181235c113d3194a7cefdb43bae0506aeb2b7d30f2d3b7ad28"
+    },
+    "Swin_P4": {
+      "metadata_sha256": "ad1904236c4a561fdaf2bdba198f4884b4c06d00e2c7a66213d7acd262864b36",
+      "predictions_sha256": "7a46d4e51297bdee1d4d8166ef484a61089676ef67485751eea9f9b92829c3cc"
+    },
+    "Swin_P5": {
+      "metadata_sha256": "95d94a372c83ae7bc5869b26df3fb3125488d133fd6d6e693d8b6697844bcb27",
+      "predictions_sha256": "fae874c5ee482ce719f158f8029d6bdff69e16945e7521a5a0ba51e7a4ad75f8"
+    },
+    "Swin_P6": {
+      "metadata_sha256": "f579ff49ec4a04e2e0abe00b53d0a502e002e70e40c100f76c846978a737f2b8",
+      "predictions_sha256": "b230a920aa077a2ad183975bfc56aff534ec83dc0d93632e366dcdca35e5e108"
+    }
+  },
+  "generated_utc": "2026-11-05T00:26:05.322755+00:00"
+}

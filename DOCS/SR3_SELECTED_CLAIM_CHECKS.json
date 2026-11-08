@@ -1,0 +1,919 @@
+{
+  "status": "PASS",
+  "n_claim_checks": 113,
+  "pass": 113,
+  "failed": [],
+  "checks": [
+    {
+      "name": "DeiT Small per-cohort preferred signs",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT Small mean preferred gap",
+      "status": "PASS",
+      "computed": 0.023779298490027818,
+      "paper": 0.02377929849,
+      "tolerance": 1e-09,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT Base per-cohort preferred signs",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT Base mean preferred gap",
+      "status": "PASS",
+      "computed": 0.04926575731251581,
+      "paper": 0.04926575731,
+      "tolerance": 1e-09,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT Large per-cohort preferred signs",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT Large mean preferred gap",
+      "status": "PASS",
+      "computed": 0.0427604933890106,
+      "paper": 0.04276049339,
+      "tolerance": 1e-09,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT public panel mean preferred gap",
+      "status": "PASS",
+      "computed": 0.03860184973051808,
+      "paper": 0.038602,
+      "tolerance": 6e-07,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT exact location lower bound",
+      "status": "PASS",
+      "computed": 0.03350132699865056,
+      "paper": 0.033501,
+      "tolerance": 5e-05,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT sign reversal configurations",
+      "status": "PASS",
+      "computed": 64,
+      "paper": 64,
+      "tolerance": 0,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT exact signflip p one-sided",
+      "status": "PASS",
+      "computed": 0.015625,
+      "paper": 0.015625,
+      "tolerance": 1e-12,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin Tiny per-cohort preferred signs",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin Tiny mean preferred gap",
+      "status": "PASS",
+      "computed": 0.019902613142330584,
+      "paper": 0.01990261314,
+      "tolerance": 1e-09,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin Small per-cohort preferred signs",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin Small mean preferred gap",
+      "status": "PASS",
+      "computed": 0.023360352112584165,
+      "paper": 0.02336035211,
+      "tolerance": 1e-09,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin Base per-cohort preferred signs",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin Base mean preferred gap",
+      "status": "PASS",
+      "computed": 0.032904745712258834,
+      "paper": 0.03290474571,
+      "tolerance": 1e-09,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin public panel mean preferred gap",
+      "status": "PASS",
+      "computed": 0.02538923698905786,
+      "paper": 0.025389,
+      "tolerance": 6e-07,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin exact location lower bound",
+      "status": "PASS",
+      "computed": 0.021529273718543497,
+      "paper": 0.0215,
+      "tolerance": 5e-05,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin sign reversal configurations",
+      "status": "PASS",
+      "computed": 64,
+      "paper": 64,
+      "tolerance": 0,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "Swin exact signflip p one-sided",
+      "status": "PASS",
+      "computed": 0.015625,
+      "paper": 0.015625,
+      "tolerance": 1e-12,
+      "source": "DATA_TABLES/deit_common_beta_72_state_q.csv; DATA_TABLES/directional_swin_72_original_q_states.csv"
+    },
+    {
+      "name": "DeiT ROT180 analytic z mean",
+      "status": "PASS",
+      "computed": 4.347134491541561,
+      "paper": 4.35,
+      "tolerance": 0.0051,
+      "source": "DATA_TABLES/finite_null_analytic_sigma_186_states.csv"
+    },
+    {
+      "name": "DeiT ROT180 |z|>1.96 count",
+      "status": "PASS",
+      "computed": 12,
+      "paper": 12,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "DeiT HFLIP analytic z mean",
+      "status": "PASS",
+      "computed": 0.021254665662452633,
+      "paper": 0.02,
+      "tolerance": 0.0051,
+      "source": "DATA_TABLES/finite_null_analytic_sigma_186_states.csv"
+    },
+    {
+      "name": "DeiT HFLIP |z|>1.96 count",
+      "status": "PASS",
+      "computed": 4,
+      "paper": 4,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "DeiT CLEAN analytic z mean",
+      "status": "PASS",
+      "computed": -0.8277016610518426,
+      "paper": -0.83,
+      "tolerance": 0.0051,
+      "source": "DATA_TABLES/finite_null_analytic_sigma_186_states.csv"
+    },
+    {
+      "name": "DeiT CLEAN |z|>1.96 count",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "Swin ROT180 analytic z mean",
+      "status": "PASS",
+      "computed": 2.0794595936600766,
+      "paper": 2.08,
+      "tolerance": 0.0051,
+      "source": "DATA_TABLES/finite_null_analytic_sigma_186_states.csv"
+    },
+    {
+      "name": "Swin ROT180 |z|>1.96 count",
+      "status": "PASS",
+      "computed": 8,
+      "paper": 8,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "Swin HFLIP analytic z mean",
+      "status": "PASS",
+      "computed": 3.994146701143189,
+      "paper": 3.99,
+      "tolerance": 0.0051,
+      "source": "DATA_TABLES/finite_null_analytic_sigma_186_states.csv"
+    },
+    {
+      "name": "Swin HFLIP |z|>1.96 count",
+      "status": "PASS",
+      "computed": 17,
+      "paper": 17,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "Swin CLEAN analytic z mean",
+      "status": "PASS",
+      "computed": -2.6871323500461406,
+      "paper": -2.69,
+      "tolerance": 0.0051,
+      "source": "DATA_TABLES/finite_null_analytic_sigma_186_states.csv"
+    },
+    {
+      "name": "Swin CLEAN |z|>1.96 count",
+      "status": "PASS",
+      "computed": 11,
+      "paper": 11,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "conditional arrangement-null calibration states",
+      "status": "PASS",
+      "computed": 186,
+      "paper": 186,
+      "tolerance": 0,
+      "source": "DATA_TABLES/finite_null_analytic_sigma_186_states.csv"
+    },
+    {
+      "name": "null calibration chi2 sample mean",
+      "status": "PASS",
+      "computed": 77.61564168673524,
+      "paper": 77.616,
+      "tolerance": 0.0006,
+      "source": "DATA_TABLES/finite_null_analytic_sigma_186_states.csv"
+    },
+    {
+      "name": "null calibration KS D",
+      "status": "PASS",
+      "computed": 0.03618938871289412,
+      "paper": 0.03619,
+      "tolerance": 6e-06,
+      "source": "same"
+    },
+    {
+      "name": "null calibration KS nominal p",
+      "status": "PASS",
+      "computed": 0.9605969868106831,
+      "paper": 0.9606,
+      "tolerance": 6e-05,
+      "source": "same"
+    },
+    {
+      "name": "null calibration SD(sd1/sigma)",
+      "status": "PASS",
+      "computed": 0.07501704726838444,
+      "paper": 0.075,
+      "tolerance": 6e-05,
+      "source": "same"
+    },
+    {
+      "name": "null median sigma/sd1",
+      "status": "PASS",
+      "computed": 1.0097571821691713,
+      "paper": 1.009757,
+      "tolerance": 1e-06,
+      "source": "same"
+    },
+    {
+      "name": "null median sigma/sd0",
+      "status": "PASS",
+      "computed": 1.016209370389353,
+      "paper": 1.016209,
+      "tolerance": 1e-06,
+      "source": "same"
+    },
+    {
+      "name": "DeiT P1 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "DeiT P2 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "DeiT P3 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "DeiT P4 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "DeiT P5 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "DeiT P6 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "DeiT trained six-seed preferred mean",
+      "status": "PASS",
+      "computed": 0.04958352486032988,
+      "paper": 0.049584,
+      "tolerance": 6e-07,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "DeiT trained lower 95 bound",
+      "status": "PASS",
+      "computed": 0.04308761526377475,
+      "paper": 0.043088,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "DeiT trained signflip exact p",
+      "status": "PASS",
+      "computed": 0.015625,
+      "paper": 0.015625,
+      "tolerance": 1e-12,
+      "source": "same"
+    },
+    {
+      "name": "DeiT across-seed standardized contrast",
+      "status": "PASS",
+      "computed": 3.939691260560259,
+      "paper": 3.9,
+      "tolerance": 0.1,
+      "source": "same"
+    },
+    {
+      "name": "Swin P1 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "Swin P2 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "Swin P3 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "Swin P4 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "Swin P5 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "Swin P6 positive paired cohorts",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "Swin trained six-seed preferred mean",
+      "status": "PASS",
+      "computed": 0.0427959167703223,
+      "paper": 0.042796,
+      "tolerance": 6e-07,
+      "source": "DATA_TABLES/trained_base_288_state_q.csv"
+    },
+    {
+      "name": "Swin trained lower 95 bound",
+      "status": "PASS",
+      "computed": 0.032008991938589686,
+      "paper": 0.032009,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "Swin trained signflip exact p",
+      "status": "PASS",
+      "computed": 0.015625,
+      "paper": 0.015625,
+      "tolerance": 1e-12,
+      "source": "same"
+    },
+    {
+      "name": "Swin across-seed standardized contrast",
+      "status": "PASS",
+      "computed": 3.3572487788179153,
+      "paper": 3.4,
+      "tolerance": 0.1,
+      "source": "same"
+    },
+    {
+      "name": "S5 original arm states",
+      "status": "PASS",
+      "computed": 144,
+      "paper": 144,
+      "tolerance": 0,
+      "source": "DATA_TABLES/S5_AUDITED_144_STATES_20261105.csv"
+    },
+    {
+      "name": "S5 state-image evaluations",
+      "status": "PASS",
+      "computed": 7200000,
+      "paper": 7200000,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "S5 paired damage contrasts positive",
+      "status": "PASS",
+      "computed": 72,
+      "paper": 72,
+      "tolerance": 0,
+      "source": "DATA_TABLES/S5_AUDITED_72_COHORT_CONTRASTS_20261105.csv"
+    },
+    {
+      "name": "DeiT S5 mean mean_rot180_damage_pp",
+      "status": "PASS",
+      "computed": 1.7777222222222222,
+      "paper": 1.7777,
+      "tolerance": 5.1e-05,
+      "source": "DATA_TABLES/S5_AUDITED_12_SEED_CONTRASTS_20261105.csv"
+    },
+    {
+      "name": "DeiT S5 mean mean_hflip_damage_pp",
+      "status": "PASS",
+      "computed": 0.9582222222222222,
+      "paper": 0.9582,
+      "tolerance": 5.1e-05,
+      "source": "DATA_TABLES/S5_AUDITED_12_SEED_CONTRASTS_20261105.csv"
+    },
+    {
+      "name": "DeiT S5 mean mean_contrast_pp",
+      "status": "PASS",
+      "computed": 0.8195,
+      "paper": 0.8195,
+      "tolerance": 5.1e-05,
+      "source": "DATA_TABLES/S5_AUDITED_12_SEED_CONTRASTS_20261105.csv"
+    },
+    {
+      "name": "DeiT S5 six-seed SD",
+      "status": "PASS",
+      "computed": 0.6284421921616091,
+      "paper": 0.6284,
+      "tolerance": 5.1e-05,
+      "source": "same"
+    },
+    {
+      "name": "DeiT five-seed excluding P3",
+      "status": "PASS",
+      "computed": 0.5639333333333334,
+      "paper": 0.5639,
+      "tolerance": 6e-05,
+      "source": "same"
+    },
+    {
+      "name": "Swin S5 mean mean_rot180_damage_pp",
+      "status": "PASS",
+      "computed": 0.9790555555555557,
+      "paper": 0.9791,
+      "tolerance": 5.1e-05,
+      "source": "DATA_TABLES/S5_AUDITED_12_SEED_CONTRASTS_20261105.csv"
+    },
+    {
+      "name": "Swin S5 mean mean_hflip_damage_pp",
+      "status": "PASS",
+      "computed": 0.5515,
+      "paper": 0.5515,
+      "tolerance": 5.1e-05,
+      "source": "DATA_TABLES/S5_AUDITED_12_SEED_CONTRASTS_20261105.csv"
+    },
+    {
+      "name": "Swin S5 mean mean_contrast_pp",
+      "status": "PASS",
+      "computed": 0.4275555555555556,
+      "paper": 0.4276,
+      "tolerance": 5.1e-05,
+      "source": "DATA_TABLES/S5_AUDITED_12_SEED_CONTRASTS_20261105.csv"
+    },
+    {
+      "name": "Swin S5 six-seed SD",
+      "status": "PASS",
+      "computed": 0.1021827701646345,
+      "paper": 0.1022,
+      "tolerance": 5.1e-05,
+      "source": "same"
+    },
+    {
+      "name": "DeiT clean mean Top-1",
+      "status": "PASS",
+      "computed": 83.73666666666666,
+      "paper": 83.7367,
+      "tolerance": 5.1e-05,
+      "source": "DATA_TABLES/S7_TRAINED_VS_PUBLIC_12_PAIRS.csv"
+    },
+    {
+      "name": "DeiT public Base Top-1",
+      "status": "PASS",
+      "computed": 83.774,
+      "paper": 83.774,
+      "tolerance": 1e-06,
+      "source": "same"
+    },
+    {
+      "name": "DeiT clean relative difference",
+      "status": "PASS",
+      "computed": -0.03733333333333633,
+      "paper": -0.0373,
+      "tolerance": 5.1e-05,
+      "source": "same"
+    },
+    {
+      "name": "DeiT clean across seed sample SD",
+      "status": "PASS",
+      "computed": 0.07466904758108588,
+      "paper": 0.0747,
+      "tolerance": 5.1e-05,
+      "source": "same"
+    },
+    {
+      "name": "Swin clean mean Top-1",
+      "status": "PASS",
+      "computed": 83.833,
+      "paper": 83.833,
+      "tolerance": 5.1e-05,
+      "source": "DATA_TABLES/S7_TRAINED_VS_PUBLIC_12_PAIRS.csv"
+    },
+    {
+      "name": "Swin public Base Top-1",
+      "status": "PASS",
+      "computed": 83.754,
+      "paper": 83.754,
+      "tolerance": 1e-06,
+      "source": "same"
+    },
+    {
+      "name": "Swin clean relative difference",
+      "status": "PASS",
+      "computed": 0.07899999999999352,
+      "paper": 0.079,
+      "tolerance": 5.1e-05,
+      "source": "same"
+    },
+    {
+      "name": "Swin clean across seed sample SD",
+      "status": "PASS",
+      "computed": 0.09747820269168063,
+      "paper": 0.0975,
+      "tolerance": 5.1e-05,
+      "source": "same"
+    },
+    {
+      "name": "DeiT A6 trained mean",
+      "status": "PASS",
+      "computed": 0.049795178157955346,
+      "paper": 0.049795,
+      "tolerance": 6e-07,
+      "source": "A6_DIRECTIONAL/A6_84_PAIRED_Q_CONTRASTS.csv"
+    },
+    {
+      "name": "DeiT A6 public mean",
+      "status": "PASS",
+      "computed": 0.058609808695069474,
+      "paper": 0.05861,
+      "tolerance": 6e-07,
+      "source": "A6_DIRECTIONAL/A6_84_PAIRED_Q_CONTRASTS.csv"
+    },
+    {
+      "name": "DeiT A6 preferred signs",
+      "status": "PASS",
+      "computed": 36,
+      "paper": 36,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "DeiT A6 x global projection",
+      "status": "PASS",
+      "computed": 0.029692117990079422,
+      "paper": 0.029692,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "DeiT A6 y global projection",
+      "status": "PASS",
+      "computed": 0.020103060167875924,
+      "paper": 0.020103,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "DeiT A6 x share pct",
+      "status": "PASS",
+      "computed": 59.628500365824614,
+      "paper": 59.6,
+      "tolerance": 0.07,
+      "source": "same"
+    },
+    {
+      "name": "Swin A6 trained mean",
+      "status": "PASS",
+      "computed": -0.04281548722847732,
+      "paper": -0.042815,
+      "tolerance": 6e-07,
+      "source": "A6_DIRECTIONAL/A6_84_PAIRED_Q_CONTRASTS.csv"
+    },
+    {
+      "name": "Swin A6 public mean",
+      "status": "PASS",
+      "computed": -0.03259418209887266,
+      "paper": -0.032594,
+      "tolerance": 6e-07,
+      "source": "A6_DIRECTIONAL/A6_84_PAIRED_Q_CONTRASTS.csv"
+    },
+    {
+      "name": "Swin A6 preferred signs",
+      "status": "PASS",
+      "computed": 36,
+      "paper": 36,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "Swin A6 x global projection",
+      "status": "PASS",
+      "computed": -0.036856912608935144,
+      "paper": -0.036857,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "Swin A6 y global projection",
+      "status": "PASS",
+      "computed": -0.005958574619542179,
+      "paper": -0.005959,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "Swin A6 x share pct",
+      "status": "PASS",
+      "computed": 86.08313251757409,
+      "paper": 86.1,
+      "tolerance": 0.07,
+      "source": "same"
+    },
+    {
+      "name": "Swin A6 stage1 mean global contrast",
+      "status": "PASS",
+      "computed": 0.0022093213099193374,
+      "paper": 0.002209,
+      "tolerance": 6e-07,
+      "source": "A6_DIRECTIONAL/A6_SWIN_168_STAGE_PAIR_CONTRASTS.csv"
+    },
+    {
+      "name": "Swin A6 stage1 F-energy fraction",
+      "status": "PASS",
+      "computed": 0.05693141351842675,
+      "paper": 0.0569,
+      "tolerance": 6e-05,
+      "source": "same"
+    },
+    {
+      "name": "Swin A6 stage2 mean global contrast",
+      "status": "PASS",
+      "computed": -0.0013104754960868129,
+      "paper": -0.00131,
+      "tolerance": 6e-07,
+      "source": "A6_DIRECTIONAL/A6_SWIN_168_STAGE_PAIR_CONTRASTS.csv"
+    },
+    {
+      "name": "Swin A6 stage2 F-energy fraction",
+      "status": "PASS",
+      "computed": 0.07676725688587635,
+      "paper": 0.0768,
+      "tolerance": 6e-05,
+      "source": "same"
+    },
+    {
+      "name": "Swin A6 stage3 mean global contrast",
+      "status": "PASS",
+      "computed": -0.011509534057142116,
+      "paper": -0.01151,
+      "tolerance": 6e-07,
+      "source": "A6_DIRECTIONAL/A6_SWIN_168_STAGE_PAIR_CONTRASTS.csv"
+    },
+    {
+      "name": "Swin A6 stage3 F-energy fraction",
+      "status": "PASS",
+      "computed": 0.5574856388514927,
+      "paper": 0.5575,
+      "tolerance": 6e-05,
+      "source": "same"
+    },
+    {
+      "name": "Swin A6 stage4 mean global contrast",
+      "status": "PASS",
+      "computed": -0.03220479898516773,
+      "paper": -0.032205,
+      "tolerance": 6e-07,
+      "source": "A6_DIRECTIONAL/A6_SWIN_168_STAGE_PAIR_CONTRASTS.csv"
+    },
+    {
+      "name": "Swin A6 stage4 F-energy fraction",
+      "status": "PASS",
+      "computed": 0.3088156907442051,
+      "paper": 0.3088,
+      "tolerance": 6e-05,
+      "source": "same"
+    },
+    {
+      "name": "locality global mean",
+      "status": "PASS",
+      "computed": 0.04926575731251587,
+      "paper": 0.049266,
+      "tolerance": 6e-07,
+      "source": "DATA_TABLES/deit_locality_six_cohorts.csv"
+    },
+    {
+      "name": "locality tile mean",
+      "status": "PASS",
+      "computed": 0.020705535964123948,
+      "paper": 0.020706,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "locality paired change",
+      "status": "PASS",
+      "computed": -0.028560221348391916,
+      "paper": -0.02856,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "locality percent attenuation",
+      "status": "PASS",
+      "computed": 57.97174935771515,
+      "paper": 57.97,
+      "tolerance": 0.006,
+      "source": "same"
+    },
+    {
+      "name": "locality upper CI",
+      "status": "PASS",
+      "computed": -0.0158264674752215,
+      "paper": -0.015826,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "locality all negative paired changes",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "DeiT trained first-step sign contrast",
+      "status": "PASS",
+      "computed": 0.024441650619875382,
+      "paper": 0.024442,
+      "tolerance": 6e-07,
+      "source": "DATA_TABLES/trained_checkpoint_first_gradient_288_states.csv"
+    },
+    {
+      "name": "DeiT trained first-step normalized-gradient contrast",
+      "status": "PASS",
+      "computed": 0.030878669073309214,
+      "paper": 0.030879,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "DeiT trained first-step sign positive seeds",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "Swin trained first-step sign contrast",
+      "status": "PASS",
+      "computed": 0.04381745305204866,
+      "paper": 0.043817,
+      "tolerance": 6e-07,
+      "source": "DATA_TABLES/trained_checkpoint_first_gradient_288_states.csv"
+    },
+    {
+      "name": "Swin trained first-step normalized-gradient contrast",
+      "status": "PASS",
+      "computed": -0.001041685757887203,
+      "paper": -0.001042,
+      "tolerance": 6e-07,
+      "source": "same"
+    },
+    {
+      "name": "Swin trained first-step sign positive seeds",
+      "status": "PASS",
+      "computed": 6,
+      "paper": 6,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "Swin trained first-step gradient positive seeds",
+      "status": "PASS",
+      "computed": 4,
+      "paper": 4,
+      "tolerance": 0,
+      "source": "same"
+    },
+    {
+      "name": "Swin trained sign-step HFLIP absolute",
+      "status": "PASS",
+      "computed": 0.06672618327186217,
+      "paper": 0.066726,
+      "tolerance": 6e-07,
+      "source": "DATA_TABLES/trained_checkpoint_first_gradient_288_states.csv"
+    }
+  ],
+  "limitations": [
+    "Selected numerical claims were audited, not every sentence/figure/table cell in SR3.",
+    "Raw 50k ImageNet pixel inference, fresh training, and perturbation generation are out of scope.",
+    "Supplement reference F geometry for nine public configs cannot all be regenerated from this package (only 14 Base frequency vectors are included).",
+    "Certain historical public first-step and exact sign-flip source rows may require deeper legacy archive extraction.",
+    "No complete and independently rendered figure regeneration was performed."
+  ]
+}

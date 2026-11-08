@@ -1,0 +1,193 @@
+{
+  "audit_date_utc": "2026-11-05",
+  "input_archive_name": "S5_FULLVAL_12_SEED_ROT180_HFLIP_v1_20261105.zip",
+  "input_zip_sha256": "6f20162848a848af7262b3f3f026185f147f0c237632637ac44a33f9bb5108e5",
+  "archive_integrity_crc_pass": true,
+  "n_entries": 288,
+  "n_json": 144,
+  "n_npz": 144,
+  "n_unique_states": 144,
+  "n_independent_npz_sha_matches": 144,
+  "all_image_streams_aligned": true,
+  "fullval_cache_ids": {
+    "P2_C_PUBLIC_FULLVAL_SOURCE_NATIVE_CACHE_v1_0": 144
+  },
+  "fullval_stream_sha256": {
+    "6035a7e4acb49b9752c3668c64eb6dc9850c338ed406a825bbba7d77e81f5102": 144
+  },
+  "fullval_class_order_sha256": {
+    "5e738e464c43c92037bbb4252eeb6ba2c306091861443ae7e182e28c9662324e": 144
+  },
+  "verified_q_max_abs_difference": 9.71445146547012e-17,
+  "confidence_minmax": [
+    0.017932171002030373,
+    0.9998660087585449
+  ],
+  "n_cohort_pairs": 72,
+  "n_seed_contrasts": 12,
+  "summary": {
+    "DeiT": {
+      "mean_pp": 0.8195000000000001,
+      "sd_across_seeds_pp": 0.6284421921616091,
+      "positive_seeds": 6,
+      "seed_n": 6,
+      "min_seed_pp": 0.48900000000000005,
+      "max_seed_pp": 2.0973333333333333,
+      "cohort_contrasts_positive": 36,
+      "overall_mean_rot180_damage_pp": 1.7777222222222224,
+      "overall_mean_hflip_damage_pp": 0.9582222222222222
+    },
+    "Swin": {
+      "mean_pp": 0.4275555555555555,
+      "sd_across_seeds_pp": 0.1021827701646345,
+      "positive_seeds": 6,
+      "seed_n": 6,
+      "min_seed_pp": 0.3363333333333333,
+      "max_seed_pp": 0.618,
+      "cohort_contrasts_positive": 36,
+      "overall_mean_rot180_damage_pp": 0.9790555555555556,
+      "overall_mean_hflip_damage_pp": 0.5515000000000001
+    }
+  },
+  "seed_contrasts": [
+    {
+      "family": "DeiT",
+      "pair": "P1",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 1.262,
+      "mean_hflip_damage_pp": 0.773,
+      "mean_contrast_pp": 0.48900000000000005,
+      "min_contrast_pp": 0.376,
+      "max_contrast_pp": 0.5760000000000001,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "DeiT",
+      "pair": "P2",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 1.3913333333333335,
+      "mean_hflip_damage_pp": 0.883,
+      "mean_contrast_pp": 0.5083333333333334,
+      "min_contrast_pp": 0.32200000000000006,
+      "max_contrast_pp": 0.604,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "DeiT",
+      "pair": "P3",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 3.390333333333333,
+      "mean_hflip_damage_pp": 1.293,
+      "mean_contrast_pp": 2.0973333333333333,
+      "min_contrast_pp": 1.076,
+      "max_contrast_pp": 2.8120000000000003,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "DeiT",
+      "pair": "P4",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 1.4006666666666667,
+      "mean_hflip_damage_pp": 0.7936666666666666,
+      "mean_contrast_pp": 0.6070000000000001,
+      "min_contrast_pp": 0.5019999999999999,
+      "max_contrast_pp": 0.728,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "DeiT",
+      "pair": "P5",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 1.5983333333333334,
+      "mean_hflip_damage_pp": 1.0116666666666667,
+      "mean_contrast_pp": 0.5866666666666668,
+      "min_contrast_pp": 0.41800000000000015,
+      "max_contrast_pp": 0.72,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "DeiT",
+      "pair": "P6",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 1.6236666666666668,
+      "mean_hflip_damage_pp": 0.9950000000000001,
+      "mean_contrast_pp": 0.6286666666666666,
+      "min_contrast_pp": 0.5099999999999999,
+      "max_contrast_pp": 0.704,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "Swin",
+      "pair": "P1",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 1.1283333333333336,
+      "mean_hflip_damage_pp": 0.5103333333333334,
+      "mean_contrast_pp": 0.618,
+      "min_contrast_pp": 0.512,
+      "max_contrast_pp": 0.716,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "Swin",
+      "pair": "P2",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 1.0423333333333333,
+      "mean_hflip_damage_pp": 0.6003333333333334,
+      "mean_contrast_pp": 0.442,
+      "min_contrast_pp": 0.38,
+      "max_contrast_pp": 0.5,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "Swin",
+      "pair": "P3",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 0.9856666666666668,
+      "mean_hflip_damage_pp": 0.5763333333333333,
+      "mean_contrast_pp": 0.4093333333333334,
+      "min_contrast_pp": 0.31000000000000005,
+      "max_contrast_pp": 0.45600000000000007,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "Swin",
+      "pair": "P4",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 0.9383333333333334,
+      "mean_hflip_damage_pp": 0.523,
+      "mean_contrast_pp": 0.41533333333333333,
+      "min_contrast_pp": 0.28600000000000003,
+      "max_contrast_pp": 0.528,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "Swin",
+      "pair": "P5",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 0.92,
+      "mean_hflip_damage_pp": 0.5836666666666667,
+      "mean_contrast_pp": 0.3363333333333333,
+      "min_contrast_pp": 0.246,
+      "max_contrast_pp": 0.384,
+      "positive_cohorts": 6
+    },
+    {
+      "family": "Swin",
+      "pair": "P6",
+      "n_cohorts": 6,
+      "mean_rot180_damage_pp": 0.8596666666666667,
+      "mean_hflip_damage_pp": 0.5153333333333333,
+      "mean_contrast_pp": 0.3443333333333333,
+      "min_contrast_pp": 0.2340000000000001,
+      "max_contrast_pp": 0.436,
+      "positive_cohorts": 6
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "scope_limitations": [
+    "Archive lacks original checkpoints and delta.pt: source tensor/checkpoint SHA-256 hashes cannot be independently rehashed here.",
+    "Archive lacks source ImageNet cache and S7 clean-prediction files: their SHA-256 values and clean correctness can only be cross-checked internally.",
+    "Independent audit validates ZIP+NPZ integrity, prediction counts, class labels consistency, mathematical aggregations, and reported metadata; does not re-run forward inference or q(+F) from perturbation tensors."
+  ]
+}

@@ -1,0 +1,2317 @@
+{
+  "total_checked_published_numeric_cells": 284,
+  "passed": 284,
+  "failed": [],
+  "coverage_by_table": {
+    "Table_DeiT_Regularization_Sensitivity": {
+      "cells": 36,
+      "passed": 36
+    },
+    "Table_DeiT_Target_Locality": {
+      "cells": 18,
+      "passed": 18
+    },
+    "Table_Full_Validation_Damage": {
+      "cells": 36,
+      "passed": 36
+    },
+    "Table_Image_Disjoint_Directional_Results": {
+      "cells": 42,
+      "passed": 42
+    },
+    "Table_Public_Clean_Accuracy": {
+      "cells": 36,
+      "passed": 36
+    },
+    "Table_Public_Exact_Contrasts": {
+      "cells": 48,
+      "passed": 48
+    },
+    "Table_Public_Standardized_Alignment": {
+      "cells": 24,
+      "passed": 24
+    },
+    "Table_Secondary_Checkpoint_Results": {
+      "cells": 8,
+      "passed": 8
+    },
+    "Table_Training_Seed_Contrasts": {
+      "cells": 36,
+      "passed": 36
+    }
+  },
+  "checks": [
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P1 q_H",
+      "reported": -0.009032,
+      "calculated": -0.009032125294137,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P1 q_R",
+      "reported": 0.038412,
+      "calculated": 0.03841208859095955,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P1 gap",
+      "reported": 0.047444,
+      "calculated": 0.04744421388509655,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P2 q_H",
+      "reported": -0.018701,
+      "calculated": -0.018701181695710934,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P2 q_R",
+      "reported": 0.021977,
+      "calculated": 0.021976596417473935,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P2 gap",
+      "reported": 0.040678,
+      "calculated": 0.04067777811318487,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P3 q_H",
+      "reported": -0.023613,
+      "calculated": -0.023613362660437783,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P3 q_R",
+      "reported": 0.021884,
+      "calculated": 0.02188408975392685,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P3 gap",
+      "reported": 0.045497,
+      "calculated": 0.045497452414364634,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P4 q_H",
+      "reported": -0.006593,
+      "calculated": -0.006593047337074333,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P4 q_R",
+      "reported": 0.039367,
+      "calculated": 0.03936707003131723,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P4 gap",
+      "reported": 0.04596,
+      "calculated": 0.04596011736839156,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P5 q_H",
+      "reported": -0.036654,
+      "calculated": -0.03665411393365695,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P5 q_R",
+      "reported": 0.038156,
+      "calculated": 0.03815614236542802,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P5 gap",
+      "reported": 0.07481,
+      "calculated": 0.07481025629908497,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P6 q_H",
+      "reported": -0.01795,
+      "calculated": -0.0179498460587347,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P6 q_R",
+      "reported": 0.025161,
+      "calculated": 0.025161485023122016,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "DeiT P6 gap",
+      "reported": 0.043111,
+      "calculated": 0.04311133108185672,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P1 q_H",
+      "reported": 0.042303,
+      "calculated": 0.04230323049577392,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P1 q_R",
+      "reported": -0.005708,
+      "calculated": -0.005708278988238717,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P1 gap",
+      "reported": 0.048012,
+      "calculated": 0.048011509484012636,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P2 q_H",
+      "reported": 0.039657,
+      "calculated": 0.03965654469886165,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P2 q_R",
+      "reported": -0.005273,
+      "calculated": -0.005272714440273117,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P2 gap",
+      "reported": 0.044929,
+      "calculated": 0.044929259139134765,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P3 q_H",
+      "reported": 0.04601,
+      "calculated": 0.0460102232403158,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P3 q_R",
+      "reported": 0.006488,
+      "calculated": 0.006487912034009783,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P3 gap",
+      "reported": 0.039522,
+      "calculated": 0.03952231120630602,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P4 q_H",
+      "reported": 0.056893,
+      "calculated": 0.05689317256347443,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P4 q_R",
+      "reported": -0.005937,
+      "calculated": -0.005936646083258133,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P4 gap",
+      "reported": 0.06283,
+      "calculated": 0.06282981864673257,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P5 q_H",
+      "reported": 0.035367,
+      "calculated": 0.035367484732768184,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P5 q_R",
+      "reported": 0.010872,
+      "calculated": 0.010871812061894833,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P5 gap",
+      "reported": 0.024496,
+      "calculated": 0.024495672670873353,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P6 q_H",
+      "reported": 0.034935,
+      "calculated": 0.03493466183813815,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P6 q_R",
+      "reported": -0.002052,
+      "calculated": -0.0020522676367363333,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Training_Seed_Contrasts",
+      "item": "Swin P6 gap",
+      "reported": 0.036987,
+      "calculated": 0.03698692947487448,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P1 Rot",
+      "reported": 1.262,
+      "calculated": 1.262,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P1 Flip",
+      "reported": 0.773,
+      "calculated": 0.773,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P1 Diff",
+      "reported": 0.489,
+      "calculated": 0.48900000000000005,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P2 Rot",
+      "reported": 1.3913,
+      "calculated": 1.3913333333333335,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P2 Flip",
+      "reported": 0.883,
+      "calculated": 0.883,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P2 Diff",
+      "reported": 0.5083,
+      "calculated": 0.5083333333333334,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P3 Rot",
+      "reported": 3.3903,
+      "calculated": 3.390333333333333,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P3 Flip",
+      "reported": 1.293,
+      "calculated": 1.293,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P3 Diff",
+      "reported": 2.0973,
+      "calculated": 2.0973333333333333,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P4 Rot",
+      "reported": 1.4007,
+      "calculated": 1.4006666666666667,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P4 Flip",
+      "reported": 0.7937,
+      "calculated": 0.7936666666666666,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P4 Diff",
+      "reported": 0.607,
+      "calculated": 0.6070000000000001,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P5 Rot",
+      "reported": 1.5983,
+      "calculated": 1.5983333333333334,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P5 Flip",
+      "reported": 1.0117,
+      "calculated": 1.0116666666666667,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P5 Diff",
+      "reported": 0.5867,
+      "calculated": 0.5866666666666668,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P6 Rot",
+      "reported": 1.6237,
+      "calculated": 1.6236666666666668,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P6 Flip",
+      "reported": 0.995,
+      "calculated": 0.9950000000000001,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "DeiT P6 Diff",
+      "reported": 0.6287,
+      "calculated": 0.6286666666666666,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P1 Rot",
+      "reported": 1.1283,
+      "calculated": 1.1283333333333336,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P1 Flip",
+      "reported": 0.5103,
+      "calculated": 0.5103333333333334,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P1 Diff",
+      "reported": 0.618,
+      "calculated": 0.618,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P2 Rot",
+      "reported": 1.0423,
+      "calculated": 1.0423333333333333,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P2 Flip",
+      "reported": 0.6003,
+      "calculated": 0.6003333333333334,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P2 Diff",
+      "reported": 0.442,
+      "calculated": 0.442,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P3 Rot",
+      "reported": 0.9857,
+      "calculated": 0.9856666666666668,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P3 Flip",
+      "reported": 0.5763,
+      "calculated": 0.5763333333333333,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P3 Diff",
+      "reported": 0.4093,
+      "calculated": 0.4093333333333334,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P4 Rot",
+      "reported": 0.9383,
+      "calculated": 0.9383333333333334,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P4 Flip",
+      "reported": 0.523,
+      "calculated": 0.523,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P4 Diff",
+      "reported": 0.4153,
+      "calculated": 0.41533333333333333,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P5 Rot",
+      "reported": 0.92,
+      "calculated": 0.92,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P5 Flip",
+      "reported": 0.5837,
+      "calculated": 0.5836666666666667,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P5 Diff",
+      "reported": 0.3363,
+      "calculated": 0.3363333333333333,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P6 Rot",
+      "reported": 0.8597,
+      "calculated": 0.8596666666666667,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P6 Flip",
+      "reported": 0.5153,
+      "calculated": 0.5153333333333333,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Full_Validation_Damage",
+      "item": "Swin P6 Diff",
+      "reported": 0.3443,
+      "calculated": 0.3443333333333333,
+      "match": true,
+      "tol": 5.0020000000000006e-05
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P1 rot",
+      "reported": 0.04735,
+      "calculated": 0.04734573187770511,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P1 flip",
+      "reported": -0.00342,
+      "calculated": -0.003417111277687644,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P1 diff",
+      "reported": 0.05076,
+      "calculated": 0.05076284315539276,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P2 rot",
+      "reported": 0.02516,
+      "calculated": 0.025161068764366606,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P2 flip",
+      "reported": -0.01374,
+      "calculated": -0.013742141956187752,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P2 diff",
+      "reported": 0.0389,
+      "calculated": 0.03890321072055436,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P3 rot",
+      "reported": 0.02324,
+      "calculated": 0.02323833620952955,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P3 flip",
+      "reported": -0.02604,
+      "calculated": -0.026044424950063608,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P3 diff",
+      "reported": 0.04928,
+      "calculated": 0.04928276115959316,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P4 rot",
+      "reported": 0.0392,
+      "calculated": 0.039201725544121935,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P4 flip",
+      "reported": -0.00951,
+      "calculated": -0.009506654717359762,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P4 diff",
+      "reported": 0.04871,
+      "calculated": 0.04870838026148169,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P5 rot",
+      "reported": 0.03425,
+      "calculated": 0.03424891652189615,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P5 flip",
+      "reported": -0.03633,
+      "calculated": -0.03632624876953138,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P5 diff",
+      "reported": 0.07058,
+      "calculated": 0.07057516529142753,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P6 rot",
+      "reported": 0.02308,
+      "calculated": 0.023080249639706396,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P6 flip",
+      "reported": -0.01746,
+      "calculated": -0.017458458719576166,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_P6 diff",
+      "reported": 0.04054,
+      "calculated": 0.04053870835928256,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_PUBLIC rot",
+      "reported": 0.03954,
+      "calculated": 0.039536557494258696,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_PUBLIC flip",
+      "reported": -0.01907,
+      "calculated": -0.019073251200810777,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "DeiT_PUBLIC diff",
+      "reported": 0.05861,
+      "calculated": 0.05860980869506947,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P1 rot",
+      "reported": -0.00673,
+      "calculated": -0.006726904482717,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P1 flip",
+      "reported": 0.04084,
+      "calculated": 0.04084228208469097,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P1 diff",
+      "reported": -0.04757,
+      "calculated": -0.04756918656740797,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P2 rot",
+      "reported": -0.00772,
+      "calculated": -0.007717701463188718,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P2 flip",
+      "reported": 0.04404,
+      "calculated": 0.044043801148146745,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P2 diff",
+      "reported": -0.05176,
+      "calculated": -0.05176150261133546,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P3 rot",
+      "reported": 0.00606,
+      "calculated": 0.006058407166849397,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P3 flip",
+      "reported": 0.04193,
+      "calculated": 0.04193272547511353,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P3 diff",
+      "reported": -0.03587,
+      "calculated": -0.035874318308264125,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P4 rot",
+      "reported": -0.0055,
+      "calculated": -0.005499748918961177,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P4 flip",
+      "reported": 0.0632,
+      "calculated": 0.06320425812285796,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P4 diff",
+      "reported": -0.0687,
+      "calculated": -0.06870400704181912,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P5 rot",
+      "reported": 0.01652,
+      "calculated": 0.01651992565740037,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P5 flip",
+      "reported": 0.03904,
+      "calculated": 0.03904398540007469,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P5 diff",
+      "reported": -0.02252,
+      "calculated": -0.02252405974267432,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P6 rot",
+      "reported": 0.00227,
+      "calculated": 0.0022659064206304205,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P6 flip",
+      "reported": 0.03273,
+      "calculated": 0.032725755519993356,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_P6 diff",
+      "reported": -0.03046,
+      "calculated": -0.030459849099362935,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_PUBLIC rot",
+      "reported": 0.01893,
+      "calculated": 0.01893235297133389,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_PUBLIC flip",
+      "reported": 0.05153,
+      "calculated": 0.05152653507020655,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Image_Disjoint_Directional_Results",
+      "item": "Swin_PUBLIC diff",
+      "reported": -0.03259,
+      "calculated": -0.03259418209887266,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort1 global",
+      "reported": 0.052593,
+      "calculated": 0.0525934833994738,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort1 tiled",
+      "reported": 0.015742,
+      "calculated": 0.0157421861062043,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort1 change",
+      "reported": -0.036851,
+      "calculated": -0.0368512972932695,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort2 global",
+      "reported": 0.05072,
+      "calculated": 0.0507195095377479,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort2 tiled",
+      "reported": 0.016999,
+      "calculated": 0.0169992883689414,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort2 change",
+      "reported": -0.03372,
+      "calculated": -0.0337202211688065,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort3 global",
+      "reported": 0.043639,
+      "calculated": 0.0436389161897485,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort3 tiled",
+      "reported": 0.022553,
+      "calculated": 0.0225529031444561,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort3 change",
+      "reported": -0.021086,
+      "calculated": -0.0210860130452923,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort4 global",
+      "reported": 0.039414,
+      "calculated": 0.0394143784971384,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort4 tiled",
+      "reported": 0.015304,
+      "calculated": 0.0153037885993132,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort4 change",
+      "reported": -0.024111,
+      "calculated": -0.0241105898978251,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort5 global",
+      "reported": 0.045163,
+      "calculated": 0.0451625752704567,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort5 tiled",
+      "reported": 0.03762,
+      "calculated": 0.0376202302178389,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort5 change",
+      "reported": -0.007542,
+      "calculated": -0.0075423450526177,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort6 global",
+      "reported": 0.064066,
+      "calculated": 0.0640656809805299,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort6 tiled",
+      "reported": 0.016015,
+      "calculated": 0.0160148193479898,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_DeiT_Target_Locality",
+      "item": "cohort6 change",
+      "reported": -0.048051,
+      "calculated": -0.0480508616325401,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P1 trained",
+      "reported": 83.772,
+      "calculated": 83.772,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P1 public",
+      "reported": 83.774,
+      "calculated": 83.774,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P1 diff",
+      "reported": -0.002,
+      "calculated": -0.002,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P1 trained",
+      "reported": 83.86,
+      "calculated": 83.86,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P1 public",
+      "reported": 83.754,
+      "calculated": 83.754,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P1 diff",
+      "reported": 0.106,
+      "calculated": 0.106,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P2 trained",
+      "reported": 83.726,
+      "calculated": 83.726,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P2 public",
+      "reported": 83.774,
+      "calculated": 83.774,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P2 diff",
+      "reported": -0.048,
+      "calculated": -0.048,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P2 trained",
+      "reported": 83.836,
+      "calculated": 83.836,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P2 public",
+      "reported": 83.754,
+      "calculated": 83.754,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P2 diff",
+      "reported": 0.082,
+      "calculated": 0.082,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P3 trained",
+      "reported": 83.78,
+      "calculated": 83.78,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P3 public",
+      "reported": 83.774,
+      "calculated": 83.774,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P3 diff",
+      "reported": 0.006,
+      "calculated": 0.006,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P3 trained",
+      "reported": 83.974,
+      "calculated": 83.974,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P3 public",
+      "reported": 83.754,
+      "calculated": 83.754,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P3 diff",
+      "reported": 0.22,
+      "calculated": 0.22,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P4 trained",
+      "reported": 83.648,
+      "calculated": 83.648,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P4 public",
+      "reported": 83.774,
+      "calculated": 83.774,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P4 diff",
+      "reported": -0.126,
+      "calculated": -0.126,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P4 trained",
+      "reported": 83.69,
+      "calculated": 83.69,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P4 public",
+      "reported": 83.754,
+      "calculated": 83.754,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P4 diff",
+      "reported": -0.064,
+      "calculated": -0.064,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P5 trained",
+      "reported": 83.838,
+      "calculated": 83.838,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P5 public",
+      "reported": 83.774,
+      "calculated": 83.774,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P5 diff",
+      "reported": 0.064,
+      "calculated": 0.064,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P5 trained",
+      "reported": 83.874,
+      "calculated": 83.874,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P5 public",
+      "reported": 83.754,
+      "calculated": 83.754,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P5 diff",
+      "reported": 0.12,
+      "calculated": 0.12,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P6 trained",
+      "reported": 83.656,
+      "calculated": 83.656,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P6 public",
+      "reported": 83.774,
+      "calculated": 83.774,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "DeiT P6 diff",
+      "reported": -0.118,
+      "calculated": -0.118,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P6 trained",
+      "reported": 83.764,
+      "calculated": 83.764,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P6 public",
+      "reported": 83.754,
+      "calculated": 83.754,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Clean_Accuracy",
+      "item": "Swin P6 diff",
+      "reported": 0.01,
+      "calculated": 0.01,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180 axis mean",
+      "reported": 0.01168,
+      "calculated": 0.011681884075840518,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180 axis p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180 axis L95",
+      "reported": 0.00047,
+      "calculated": 0.0004704293266542,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--ROT90 mean",
+      "reported": 0.02079,
+      "calculated": 0.020792928883361452,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--ROT90 p",
+      "reported": 0.03125,
+      "calculated": 0.03125,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--ROT90 L95",
+      "reported": 0.00248,
+      "calculated": 0.002483863590949,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--HFLIP mean",
+      "reported": 0.02378,
+      "calculated": 0.023779298490027818,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--HFLIP p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--HFLIP L95",
+      "reported": 0.01186,
+      "calculated": 0.0118614350600381,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--CLEAN mean",
+      "reported": 0.01788,
+      "calculated": 0.017882613514264702,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--CLEAN p",
+      "reported": 0.03125,
+      "calculated": 0.03125,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Small ROT180--CLEAN L95",
+      "reported": 0.00359,
+      "calculated": 0.0035938974648952998,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180 axis mean",
+      "reported": 0.03572,
+      "calculated": 0.035723391046430505,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180 axis p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180 axis L95",
+      "reported": 0.03161,
+      "calculated": 0.0316144539266207,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--ROT90 mean",
+      "reported": 0.01881,
+      "calculated": 0.018806499590109146,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--ROT90 p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--ROT90 L95",
+      "reported": 0.01425,
+      "calculated": 0.014254433077130098,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--HFLIP mean",
+      "reported": 0.04927,
+      "calculated": 0.04926575731251581,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--HFLIP p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--HFLIP L95",
+      "reported": 0.04229,
+      "calculated": 0.04228847688379744,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--CLEAN mean",
+      "reported": 0.04698,
+      "calculated": 0.04697804628028938,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--CLEAN p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Base ROT180--CLEAN L95",
+      "reported": 0.02742,
+      "calculated": 0.0274181194461102,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180 axis mean",
+      "reported": 0.05668,
+      "calculated": 0.056680729813109766,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180 axis p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180 axis L95",
+      "reported": 0.04854,
+      "calculated": 0.0485436218980634,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--ROT90 mean",
+      "reported": 0.01097,
+      "calculated": 0.010965916174489948,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--ROT90 p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--ROT90 L95",
+      "reported": 0.00467,
+      "calculated": 0.004667206700413998,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--HFLIP mean",
+      "reported": 0.04276,
+      "calculated": 0.042760493389010605,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--HFLIP p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--HFLIP L95",
+      "reported": 0.0383,
+      "calculated": 0.038304324772579404,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--CLEAN mean",
+      "reported": 0.063,
+      "calculated": 0.06299830918908365,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--CLEAN p",
+      "reported": 0.01562,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_DeiT_Regularization_Sensitivity",
+      "item": "Large ROT180--CLEAN L95",
+      "reported": 0.05479,
+      "calculated": 0.05478945834011209,
+      "match": true,
+      "tol": 5.02e-06
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Small ROT180 mean",
+      "reported": 0.005,
+      "calculated": 0.005349942919693386,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Small ROT180 p",
+      "reported": 0.234,
+      "calculated": 0.234375,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Small ROT180-ROT90 mean",
+      "reported": 0.024,
+      "calculated": 0.02427372759219839,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Small ROT180-ROT90 p",
+      "reported": 0.031,
+      "calculated": 0.03125,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Small ROT180-HFLIP mean",
+      "reported": 0.015,
+      "calculated": 0.015184031500296015,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Small ROT180-HFLIP p",
+      "reported": 0.078,
+      "calculated": 0.078125,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Small ROT180-CE mean",
+      "reported": 0.007,
+      "calculated": 0.006871201117182749,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Small ROT180-CE p",
+      "reported": 0.062,
+      "calculated": 0.0625,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Base ROT180 mean",
+      "reported": 0.036,
+      "calculated": 0.03572339104643055,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Base ROT180 p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Base ROT180-ROT90 mean",
+      "reported": 0.019,
+      "calculated": 0.01880649959010913,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Base ROT180-ROT90 p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Base ROT180-HFLIP mean",
+      "reported": 0.049,
+      "calculated": 0.04926575731251592,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Base ROT180-HFLIP p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Base ROT180-CE mean",
+      "reported": 0.047,
+      "calculated": 0.046978046280289426,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Base ROT180-CE p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Large ROT180 mean",
+      "reported": 0.06,
+      "calculated": 0.05990622349166764,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Large ROT180 p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Large ROT180-ROT90 mean",
+      "reported": 0.011,
+      "calculated": 0.010662006816066038,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Large ROT180-ROT90 p",
+      "reported": 0.031,
+      "calculated": 0.03125,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Large ROT180-HFLIP mean",
+      "reported": 0.045,
+      "calculated": 0.04515065521902712,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Large ROT180-HFLIP p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Large ROT180-CE mean",
+      "reported": 0.072,
+      "calculated": 0.07221996687616947,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "DeiT Large ROT180-CE p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Tiny ROT180 mean",
+      "reported": 0.021,
+      "calculated": 0.021290122226977435,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Tiny ROT180 p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Tiny ROT180-ROT90 mean",
+      "reported": 0.054,
+      "calculated": 0.0539749526094888,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Tiny ROT180-ROT90 p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Tiny ROT180-HFLIP mean",
+      "reported": -0.02,
+      "calculated": -0.019902613142330584,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Tiny ROT180-HFLIP p",
+      "reported": 1.0,
+      "calculated": 1.0,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Tiny ROT180-CE mean",
+      "reported": 0.069,
+      "calculated": 0.06948287935305553,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Tiny ROT180-CE p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Small ROT180 mean",
+      "reported": 0.044,
+      "calculated": 0.04375134626824129,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Small ROT180 p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Small ROT180-ROT90 mean",
+      "reported": 0.031,
+      "calculated": 0.03051810421008172,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Small ROT180-ROT90 p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Small ROT180-HFLIP mean",
+      "reported": -0.023,
+      "calculated": -0.023360352112584165,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Small ROT180-HFLIP p",
+      "reported": 1.0,
+      "calculated": 1.0,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Small ROT180-CE mean",
+      "reported": 0.08,
+      "calculated": 0.08006750146032882,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Small ROT180-CE p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Base ROT180 mean",
+      "reported": 0.02,
+      "calculated": 0.019721175741119017,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Base ROT180 p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Base ROT180-ROT90 mean",
+      "reported": -0.007,
+      "calculated": -0.006537868865726699,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Base ROT180-ROT90 p",
+      "reported": 1.0,
+      "calculated": 1.0,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Base ROT180-HFLIP mean",
+      "reported": -0.033,
+      "calculated": -0.032904745712258834,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Base ROT180-HFLIP p",
+      "reported": 1.0,
+      "calculated": 1.0,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Base ROT180-CE mean",
+      "reported": 0.051,
+      "calculated": 0.051377559273546695,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Exact_Contrasts",
+      "item": "Swin Base ROT180-CE p",
+      "reported": 0.015625,
+      "calculated": 0.015625,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Small ROT180 z",
+      "reported": 0.796,
+      "calculated": 0.7957407675925479,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Small HFLIP z",
+      "reported": -0.811,
+      "calculated": -0.8107433626093066,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Small CLEAN z",
+      "reported": -0.421,
+      "calculated": -0.42061563923028356,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Small damage",
+      "reported": 2.449,
+      "calculated": 2.44866666666667,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Base ROT180 z",
+      "reported": 3.396,
+      "calculated": 3.395793959025789,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Base HFLIP z",
+      "reported": -1.256,
+      "calculated": -1.255907845528379,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Base CLEAN z",
+      "reported": -1.074,
+      "calculated": -1.0739635890136776,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Base damage",
+      "reported": 1.692,
+      "calculated": 1.6920000000000002,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Large ROT180 z",
+      "reported": 8.85,
+      "calculated": 8.849868748006346,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Large HFLIP z",
+      "reported": 2.13,
+      "calculated": 2.1304152051250433,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Large CLEAN z",
+      "reported": -0.989,
+      "calculated": -0.9885257549115666,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "DeiT Large damage",
+      "reported": 0.426,
+      "calculated": 0.4256666666666669,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Tiny ROT180 z",
+      "reported": 1.182,
+      "calculated": 1.1817010667540793,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Tiny HFLIP z",
+      "reported": 2.208,
+      "calculated": 2.207990029568107,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Tiny CLEAN z",
+      "reported": -2.658,
+      "calculated": -2.6584271928576793,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Tiny damage",
+      "reported": 0.591,
+      "calculated": 0.5906666666666638,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Small ROT180 z",
+      "reported": 3.334,
+      "calculated": 3.3340439329180955,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Small HFLIP z",
+      "reported": 5.136,
+      "calculated": 5.13595812424058,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Small CLEAN z",
+      "reported": -2.715,
+      "calculated": -2.7149205517893535,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Small damage",
+      "reported": 0.401,
+      "calculated": 0.4013333333333335,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Base ROT180 z",
+      "reported": 1.723,
+      "calculated": 1.7226337813080557,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Base HFLIP z",
+      "reported": 4.638,
+      "calculated": 4.63849194962088,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Base CLEAN z",
+      "reported": -2.688,
+      "calculated": -2.688049305491388,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Public_Standardized_Alignment",
+      "item": "Swin Base damage",
+      "reported": 0.352,
+      "calculated": 0.3519999999999991,
+      "match": true,
+      "tol": 0.00050002
+    },
+    {
+      "source_table": "Table_Secondary_Checkpoint_Results",
+      "item": "DeiT axis mean",
+      "reported": 0.030826,
+      "calculated": 0.0308262453637046,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Secondary_Checkpoint_Results",
+      "item": "DeiT axis L95",
+      "reported": 0.021977,
+      "calculated": 0.02197659641747393,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Secondary_Checkpoint_Results",
+      "item": "DeiT contrast mean",
+      "reported": 0.016324,
+      "calculated": 0.016323818289622944,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Secondary_Checkpoint_Results",
+      "item": "DeiT contrast L95",
+      "reported": 0.008386,
+      "calculated": 0.0083859847716373,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Secondary_Checkpoint_Results",
+      "item": "Swin axis mean",
+      "reported": 0.042528,
+      "calculated": 0.04252755292822202,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Secondary_Checkpoint_Results",
+      "item": "Swin axis L95",
+      "reported": 0.035367,
+      "calculated": 0.03536748473276818,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Secondary_Checkpoint_Results",
+      "item": "DeiT CE mean",
+      "reported": -0.008375,
+      "calculated": -0.008375184561372167,
+      "match": true,
+      "tol": 5.2e-07
+    },
+    {
+      "source_table": "Table_Secondary_Checkpoint_Results",
+      "item": "Swin CE mean",
+      "reported": -0.028411,
+      "calculated": -0.028411182980910332,
+      "match": true,
+      "tol": 5.2e-07
+    }
+  ]
+}

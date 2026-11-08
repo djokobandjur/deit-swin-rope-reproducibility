@@ -1,0 +1,7 @@
+family,scale,preferred_signed_gap,source_note
+DeiT,Small,0.023779298490027818,from original common-beta DeiT state q
+DeiT,Base,0.04926575731251581,from original common-beta DeiT state q
+DeiT,Large,0.042760493389010605,from original common-beta DeiT state q
+Swin,Tiny,0.01990261314233058,from original Swin state q
+Swin,Small,0.023360352112584165,from original Swin state q
+Swin,Base,0.03290474571225883,from original Swin state q
